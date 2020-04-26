@@ -1,4 +1,69 @@
-.App {
+:root {
+	--primaryColor: dodgerblue;
+	--primaryWhite: white;
+}
+
+.griddle-filter {
+	width: 100%;
+	border-radius: 200px;
+	background: rgb(230, 230, 230);
+	color: var(--primaryColor);
+	padding-left: 20px !important;
+	margin: 6px;
+	padding: 6px;
+	border: none;
+	outline: none;
+}
+
+.griddle-page-select {
+	color: var(--primaryColor);
+	border: 1px solid var(--primaryColor);
+	outline: none;
+}
+
+::placeholder {
+	color: var(--primaryColor);
+}
+
+tr .griddle-table-heading-cell {
+	background: var(--primaryColor);
+	color: var(--primaryWhite);
+}
+
+table {
+	border: 1px solid var(--primaryColor);
+	border-radius: 20%;
+}
+
+/* BUTTON */
+
+button {
+	margin: 6px;
+	border: 1px solid var(--primaryColor);
+	color: var(--primaryColor);
+}
+
+.griddle-page-select {
+	background: var(--primaryColor);
+	color: var(--primaryWhite);
+	border-radius: 20px 0 0 20px;
+}
+
+.griddle-previous-button {
+	background: var(--primaryColor);
+	color: var(--primaryWhite);
+	border-radius: 20px 0 0 20px;
+	outline: none !important;
+	border: none !important;
+}
+.griddle-next-button {
+	background: var(--primaryColor);
+	color: var(--primaryWhite);
+	border-radius: 0 20px 20px 0;
+	outline: none !important;
+	border: none !important;
+}
+/* .App {
   text-align: center;
 }
 
@@ -21,7 +86,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:var(--primaryWhite);
 }
 
 .App-link {
@@ -35,4 +100,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
